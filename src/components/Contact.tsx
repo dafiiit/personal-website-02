@@ -42,7 +42,7 @@ const Contact: React.FC = () => {
       {/* Bildbereich */}
       <div className="md:w-1/3 flex justify-center md:ml-6 mt-6 md:mt-0">
         <img
-          src="public/images/contact/Signal Jan 4 2024.jpg" // Ersetze "your-photo.jpg" mit dem tatsächlichen Namen deines Fotos
+          src="/images/contact/Signal Jan 4 2024.jpg"
           alt="David Metzler"
           className="w-64 h-64 object-cover rounded-full border-4 border-[#efb314]" // Quadrat, mit abgerundeten Ecken und goldener Umrandung
         />
