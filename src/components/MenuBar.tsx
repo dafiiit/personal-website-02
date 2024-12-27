@@ -3,7 +3,7 @@ import React from 'react';
 
     const MenuBar: React.FC = () => {
       return (
-        <nav className="fixed top-0 w-full z-10 border-b-2 border-[#efb314]">
+        <nav className="fixed top-0 w-full z-10 border-b-2 border-[#efb314] bg-black ">
           <div className="container mx-auto flex justify-center space-x-6 p-4">
             <NavLink
               to="/about"
