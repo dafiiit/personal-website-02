@@ -9,3 +9,17 @@ body {
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --primary-yellow: #efb314;
+  --secondary-yellow: #c28c00;
+  --tertiary-yellow: #ffd24d;
+}
+
+.text-primary {
+  @apply text-[var(--primary-yellow)];
+}
+
+.text-primary-hover {
+  @apply text-[var(--primary-yellow)] hover:text-[var(--tertiary-yellow)] transition-colors duration-200;
+}
